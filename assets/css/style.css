@@ -1,0 +1,92 @@
+body{
+	font-family: Georgia;
+	background: url(../images/gifreel.jpg) no-repeat center center fixed;
+	background-color: #f2f2f2;
+	font-weight: 500;
+}
+.container{
+	background: rgba(55, 55, 55, .8);
+	border-radius: 8px;
+	min-height: 768;
+}
+h1{
+	font-family: cursive;
+	font-size: 70px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	text-align: center;
+}
+#white{
+	color: black;
+	text-shadow: 0 0 2px #000, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #fff;
+}
+#red{
+	color: white;
+	text-shadow: 0 0 2px #000, 0 0 10px #000, 0 0 15px #000, 0 0 20px #000, 0 0 30px #000, 0 0 40px #000;
+}
+#movieSearchBTN{
+	background-color: #e11b22;
+	border-color: #fff;
+	color: #fff;
+}
+#movieSearch{
+	border-color: #fff;
+	background-color: #000;
+	color: #fff;
+}
+.movie{
+	color: #fff;
+	border-color: #000;
+	background-color: #00abff;
+}
+#buttonHolder > .active:{
+	color: #fff;
+	border-color: #85c614;
+	background-color: #85c614;
+}
+#buttonHolder > .active:focus{
+	outline: none;
+}
+#btn-deafault:hover{
+	color: #9840fb;
+	border-color: #9840fb;
+	background-color: #fff;
+	outline: none;
+}
+.movieHolder{
+	background: rgba(55, 55, 55, .7);
+	border: 1px solid rgba(242, 242, 242, .7);
+	width: 400px;
+	margin: 0px 0px 20px 20px;
+	overflow: none;
+	border-radius: 8px 8px 8px 8px;
+	display: inline-block;
+}
+.movieHeading{
+	background: rgba(0, 0, 0, .9);
+	border-bottom: 1px solid rgba(242, 242, 242, .7);
+	color: #fff;
+	padding: 5px 10px;
+	font-size: 16px;
+	border-radius: 8px 8px 0px 0px;
+}
+.warning{
+	color: #82FF76;
+	font-size: 18pt;
+	margin-left: 20px;
+	padding: 10px;
+	font-weight: 700;
+}
+.input-group{
+	margin-bottom: 20px;
+}
+.movie{
+	margin-top: 10px;
+	margin-right: 10px;
+}
+.picDiv{
+	padding: 40px 20px 20px 20px;
+}
+img{
+	max-width: 398px;
+}
