@@ -40,7 +40,7 @@ $('#movieSearchBTN').on('click', function(){
 $('#buttonHolder').on('click', '.movie', function(){
 	$('#gifDiv').empty();
 	var movieData = $(this).data('name');
-	var movieURL = "http://api.giphy.com/v1/gifs/search?q=" + movieData + "+movie&api_key=dc6zaTOxFJmzC&limit=10";
+	var movieURL = "https://api.giphy.com/v1/gifs/search?q=" + movieData + "+movie&api_key=dc6zaTOxFJmzC&limit=10";
 
 
 	$.ajax({url: movieURL, method: 'GET'}).done(function(response){
