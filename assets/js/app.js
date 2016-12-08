@@ -74,6 +74,8 @@ $('#buttonHolder').on('click', '.movie', function(){
 // add active class to buttons
 	$(this).siblings().removeClass('active1')
 	$(this).addClass('active1');
+
+	debugger;
  });
 
 
